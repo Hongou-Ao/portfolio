@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <title>家族のあたりまえ</title>
+  <meta name="description" content="ディスクリプションを入力">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <!-- [if lt IE 9] -->
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+  <!-- [endif] -->
+  <script src="main.js"></script>
+</head>
+
+<body>
+
+  <!----- header----->
+
+  <header><img src="picture/header.png" alt="タイトル" class="title">
+    <p class="titlelog">家族のあたりまえを知ろう</p>
+  </header>
+
+  <!----- /header ----->
+
+  <!----- main ----->
+  <article>
+    <section class="main">
+
+      <div class="kensa">
+        <p class="unagasi">探したい動物を選択</p>
+        <form class="sentaku" method="get">
+          <div>
+            <select name="animal" onchange="location.href=value">
+              <option value="#">あなたの家族はどれですか？</option>
+              <option value="inu.html">犬</option>
+              <option value="neko.html">猫</option>
+              <option value="usagi.html">ウサギ</option>
+              <option value="hamu.html">ハムスター</option>
+              <option value="inko.html">インコ</option>
+            </select>
+          </div>
+        </form>
+        <p></p>
+      </div>
+
+    </section>
+  </article>
+
+  <!----- /main ----->
+
+  <!----- footer ----->
+  <footer><a class="nav-link" href="portfolio.html">ポートフォリオ</a></footer>
+  <!----- /footer ----->
+
+</body>
+
+</html>

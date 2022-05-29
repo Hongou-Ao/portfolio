@@ -1,0 +1,48 @@
+@media (max-width: 949px) { /* 変換方法：固定値（px） / 基準幅（px） * 100vw*/
+    .kensa{
+      width: 94.73684210526316vw;   /*例 900 / 950 * 100vw */
+      height: 57.89473684210526vw;  /*550*/
+    }
+  
+    .unagasi{
+      font-size: 6.315789473684211vw; /*60*/
+    }
+  
+    body{
+      background-position: center top;
+      background-image: url(/picture/iphone.png);
+      height: 1100px;
+    }
+
+    .pic{
+      transform: translate(5vw);
+      width:58.81578947368421vw;
+      height:39.47368421052631vw;
+    }
+    
+    
+
+    .side{
+      position: absolute;
+      bottom: -30vw;
+      width: auto;
+    }
+  
+  }
+  
+  @media (max-width: 1919px){
+    .title {
+      width: 83.33333333333333vw;  /*1600*/
+      height: 13.02083333333333vw; /*250*/
+    }
+
+    .titlelog {
+      font-size: 4.166666666666667vw; /*80*/
+    }
+
+    .honbun{
+
+      bottom: 13.02083333333333vw;
+    }
+   
+  }

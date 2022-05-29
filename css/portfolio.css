@@ -1,0 +1,87 @@
+#portfolio {
+    background-image: url(/picture/portbg.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: 100% auto;
+  }
+  
+  #portfolio .profile-txt {
+    width: 500px;
+    float: left;
+  }
+  
+  #portfolio .profile-txt span {
+    font-weight: bold;
+  }
+  
+  #portfolio .profile th {
+    width: 150px;
+    background-color: #f0f0f0;
+    padding: 12px 0;
+    border: 1px solid #cccccc;
+  }
+  
+  #portfolio .profile td {
+    width: 300px;
+    padding: 12px 0 12px 10px;
+    border: 1px solid #cccccc;
+  }
+  
+  #portfolio .profile-image {
+    float: right;
+    width: 200px;
+    border: black;
+    border-style:groove;
+    margin: 80px 100px 0 0;
+  }
+  
+  #portfolio .kentei th {
+    width: 240px;
+    background-color: #f0f0f0;
+    padding: 12px 0;
+    border: 1px solid #cccccc;
+  }
+  
+  #portfolio .kentei td {
+    width: 660px;
+    padding: 12px 0 12px 40px;
+    border: 1px solid #cccccc;
+  }
+  
+  table {
+    border-spacing: 0;
+    border-collapse: collapse;
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  
+  section {
+    margin-bottom: 35px;
+  }
+  
+  #wrap {
+    clear: both;
+    /* background-color: #ffffff; */
+    padding: 35px 0;
+  
+  }
+  
+  .content {
+    width: 960px;
+    margin: 0 auto;
+  }
+
+  #portfolio .name{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+  }
+
+  #portfolio .main-center{
+      background-color: #f0f0f0;
+  }

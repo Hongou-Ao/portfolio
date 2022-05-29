@@ -1,0 +1,116 @@
+header {
+   text-align: center;
+   padding-bottom: 20px;
+}
+
+.title {
+    width: 1500px;
+    height:250px;
+    border: black;
+    border-style: groove;
+    border-radius: 50px;
+}
+
+.titlelog {
+  text-align: center;
+  font-style: unset;
+  font-size: 80px;
+  position: absolute;
+  top: 1%;
+  left: 27%;
+  font-weight:bolder;
+}
+
+body{
+  background-image: url(/picture/background.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  padding: 0;
+  margin: 0;
+}
+
+.unagasi{
+  font-size: 60px;;
+  border-bottom:solid 3px;
+}
+
+.button{
+  background-color: white;
+  border-style: groove;
+}
+
+
+.kensa{
+  margin: auto;
+  width: 900px;
+  height: 550px;
+  text-align: center;
+  background:none;
+  border: black;
+  border-style: groove;
+  border-radius: 50px;
+  background-image: url(/picture/boxback.png);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  clear:both;
+}
+
+.main{
+  margin: auto;
+  padding: auto;
+}
+
+.nav-link:hover {
+  background-color: aqua;
+}
+
+.nav-link:active{
+  color:black;
+}
+
+.nav-link:visited{
+  color:black;
+}
+
+.side {
+  width: 20%;
+  padding-top: 5%;
+  font-size: 20px;
+}
+
+.home{
+  float: right;
+  width: 80%;
+  margin-bottom: 75px;
+  
+}
+
+.honbun{
+  width:660px;
+  bottom: 250px;
+}
+
+.pic {
+  width:447px;
+  height:300px;
+  transform: translate(550px);
+  border-style: groove ;
+}
+
+.name {
+  font-style: oblique;
+}
+
+h1{
+  margin: auto;
+  font-size: 40px;
+}
+
+footer{
+  font-size: 25px;
+  margin-top: 25px;
+  text-align: center
+}
+
